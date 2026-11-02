@@ -9,6 +9,16 @@ brew tap simtabi/tap
 brew install simtabi/tap/shimkit
 ```
 
+## Casks
+
+- **authama** — Authentication Access Manager: SSH keys and config, and auth
+  tokens for Composer, npm, Docker, git and netrc.
+  `brew install --cask simtabi/tap/authama`
+  ([upstream](https://github.com/simtabi/authama)). Formerly the `sshmgr`
+  cask: `cask_renames.json` maps `sshmgr` to `authama`, so an existing install
+  moves over on `brew update && brew upgrade`. The cask is published by
+  authama's release workflow; do not hand-edit `Casks/authama.rb`.
+
 ## Formulae
 
 - **shimkit** — A toolkit of developer utilities. Python tools, shimmed
